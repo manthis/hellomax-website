@@ -7,13 +7,16 @@ export default function Home() {
                 <div>logo</div>
                 <div>menu</div>
             </div>
-            <section id='landing' className='flex min-h-screen flex-col items-center justify-center'>
-                <div id='landing-text'>
+            <section
+                id='landing'
+                className='flex min-h-screen flex-col items-center justify-center bg-black text-white'>
+                <div id='landing-text' className='flex flex-col items-center justify-center'>
                     <h1>Hello Max</h1>
+                    <h2>I build your apps, drive your teams & enable your business</h2>
                 </div>
             </section>
             <section id='whoami' className='flex min-h-screen flex-col items-center justify-center bg-red-600'>
-                <div id='whoami-text'>
+                <div id='whoami-text' className='flex flex-col items-center justify-center'>
                     <h1>Maxime AUBURTIN</h1>
                     <h2>CTO on Demand & Fullstack Engineer | Blockchain | Web3</h2>
                 </div>
@@ -32,7 +35,8 @@ export default function Home() {
                 <h1>Hire me</h1>
                 <br />
                 <div> LinkedIn </div>
-                <div> Write to me </div>
+                <div> Get in touch </div>
+                <div> Book me </div>
                 <div> Buy me a coffee </div>
                 <div> Others? </div>
             </section>
