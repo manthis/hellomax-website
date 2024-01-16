@@ -1,6 +1,72 @@
-import Logo from '../public/logo.svg';
+'use client';
 
 export default function Home() {
+    const handleClick = () => {
+        let banner = document.querySelector('.banner');
+        if (banner) {
+            banner.classList.toggle('active');
+        }
+        let menuToggle = document.querySelector('.toggle');
+        if (menuToggle) {
+            menuToggle.classList.toggle('active');
+        }
+    };
+    return (
+        <main>
+            <section className='banner'>
+                <header>
+                    <a href='#' className='logo'>
+                        Hello<span>Max</span>
+                    </a>
+                    <div className='toggle' onClick={handleClick}></div>
+                </header>
+                <img src='/images/maxime.png' className='man'></img>
+                <div className='content'>
+                    <div className='contentBx'>
+                        <h4>Hello,</h4>
+                        <h2>
+                            I'm <span>Max</span>
+                        </h2>
+                        <h3>Blockchain CTO & Full Stack Engineer</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quas vel distinctio eligendi
+                            optio molestias debitis modi dignissimos similique inventore!
+                        </p>
+                        <a href='#'>Hire me</a>
+                        <a href='#'>Download CV</a>
+                    </div>
+                </div>
+                <ul className='sci'>
+                    <li>
+                        <a href='#'>
+                            <img src='/images/x.png' />
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#'>
+                            <img src='/images/linkedin.png' />
+                        </a>
+                    </li>
+                </ul>
+                <ul className='menu'>
+                    <li>
+                        <a href='#'>Home</a>
+                    </li>
+                    <li>
+                        <a href='#'>About</a>
+                    </li>
+                    <li>
+                        <a href='#'>Services</a>
+                    </li>
+                    <li>
+                        <a href='#'>Contact</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    );
+
+    /*
     return (
         <main className='bg-gradient-to-r from-green-600 from-30% to-green-500 bg-no-repeat dark:from-slate-950 dark:from-30% dark:to-slate-900 dark:text-white'>
             <div
@@ -47,4 +113,5 @@ export default function Home() {
             </section>
         </main>
     );
+    */
 }
