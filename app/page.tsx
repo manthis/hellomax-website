@@ -25,7 +25,7 @@ export default function Home() {
                     <div className='contentBx'>
                         <h4>Hello,</h4>
                         <h2>
-                            I'm <span>Max</span>
+                            I&apos;m <span>Max</span>
                         </h2>
                         <h3>Blockchain CTO & Full Stack Engineer</h3>
                         <p>
