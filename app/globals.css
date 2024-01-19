@@ -25,25 +25,13 @@
     font-family: "Poppins", sans-serif;
 }
 
-/*
-section {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 0 100px;
-    display: flex;
-    align-items: center;
-    background: #21283a;
-    overflow: hidden;
-}
-*/
-
 section.active .logo,
 section.active .content,
 section.active .socialNetworks {
     transform: scale(0);
 }
 
+/*
 header {
     position: fixed;
     top: 0;
@@ -67,10 +55,12 @@ header .logo {
     transition: 0.5s;
 }
 
+
 header .logo span {
     color: #1de5ff;
     border-bottom: 3px solid #1de5ff;
 }
+*/
 
 header .toggle {
     position: relative;
