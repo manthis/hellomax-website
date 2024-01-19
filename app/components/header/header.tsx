@@ -15,10 +15,10 @@ export default function Header() {
     };
 
     return (
-        <header className='fixed left-0 top-0 z-50 flex w-full items-center justify-between px-[100px] py-[30px]'>
+        <header className='fixed left-0 top-0 z-50 flex w-full items-center justify-between px-[40px] py-[30px] xl:px-[100px]'>
             <a href='#'>
                 <span className='origin-left text-2xl font-semibold uppercase tracking-widest text-white no-underline duration-500'>
-                    Hello<span className='text-lightblue border-lightblue border-b-4'>Max</span>
+                    Hello<span className='border-b-4 border-lightblue text-lightblue'>Max</span>
                 </span>
             </a>
             <div className='toggle' onClick={handleClick}></div>
