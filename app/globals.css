@@ -321,12 +321,12 @@ section.active .menu {
 
 /* Responsive */
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     body {
-        width: 400px;
+        width: 380px;
     }
     .man {
-        min-height: 200px;
+        width: 400px;
     }
 }
 
@@ -348,11 +348,12 @@ section.active .menu {
     }
 
     .man {
-        right: -15px;
+        right: -45px;
         opacity: 0.3;
         max-height: 45vh;
         transition: 0.5s;
         max-width: 100%;
+        min-width: 420px;
     }
 
     .content .contentBx a {
@@ -374,9 +375,10 @@ section.active .menu {
     }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 410px) {
     section {
-        height: 500px;
+        height: 410px;
+        width: 100vw;
     }
 
     .man {
