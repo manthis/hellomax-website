@@ -38,8 +38,8 @@ export default function Home() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quas vel distinctio eligendi
                             optio molestias debitis modi dignissimos similique inventore!
                         </p>
-                        <a href='#'>Hire me</a>
                         <a href='#'>Download CV</a>
+                        <a href='#'>Hire me</a>
                     </div>
                 </div>
                 <ul className='sci'>
