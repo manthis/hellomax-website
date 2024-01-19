@@ -10,6 +10,10 @@ export default function Home() {
         if (menuToggle) {
             menuToggle.classList.toggle('active');
         }
+        let imageBox = document.querySelector('.imageBox');
+        if (imageBox) {
+            imageBox.classList.toggle('active');
+        }
     };
     return (
         <main>
@@ -20,7 +24,9 @@ export default function Home() {
                     </a>
                     <div className='toggle' onClick={handleClick}></div>
                 </header>
-                <img src='/images/maxime.png' className='man'></img>
+                <div className='imageBox'>
+                    <img src='/images/maxime.png' className='man'></img>
+                </div>
                 <div className='content'>
                     <div className='contentBx'>
                         <h4>Hello,</h4>

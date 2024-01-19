@@ -51,26 +51,17 @@ section {
     overflow-x: hidden;
 }
 
-section::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 100px;
-    width: 500px;
-    height: 500px;
-    background: #1de5ff;
-    border-radius: 50%;
-    box-shadow:
-        0 0 20px #1de5ff,
-        0 0 50px #1de5ff,
-        0 0 150px #1de5ff;
-    transition: 1s;
-}
-
+/*
 section.active::before {
     background: #21283a;
     box-shadow: 0 0 0 5000px #141821;
+}
+*/
+
+section.active .logo,
+section.active .content,
+section.active .sci {
+    transform: scale(0);
 }
 
 header {
@@ -123,12 +114,36 @@ header .toggle.active {
     filter: invert(1);
 }
 
+.imageBox::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12%;
+    width: 650px;
+    height: 650px;
+    background: #1de5ff;
+    border-radius: 50%;
+    box-shadow:
+        0 0 20px #1de5ff,
+        0 0 50px #1de5ff,
+        0 0 150px #1de5ff;
+    transition: 1s;
+}
+
+.imageBox.active::before {
+    background: #21283a;
+    box-shadow: 0 0 0 5000px #141821;
+}
+
 .man {
     position: absolute;
     bottom: 0;
     right: 80px;
-    width: 550px;
+    max-height: 70vh;
+    min-height: 400px;
     transition: 0.5s;
+    max-width: 60%;
 }
 
 .content {
@@ -243,12 +258,6 @@ header .toggle.active {
     filter: invert(0);
 }
 
-section.active .logo,
-section.active .content,
-section.active .sci {
-    transform: scale(0);
-}
-
 .menu {
     position: fixed;
     top: 0;
@@ -292,12 +301,23 @@ section.active .menu {
     color: #161a23;
 }
 
-@media (max-width: 1200px) {
+/* Responsive */
+
+@media (max-width: 400px) {
+    body {
+        width: 400px;
+    }
+    .man {
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 1300px) {
     section {
         padding: 40px;
     }
 
-    section:before {
+    .imageBox:before {
         opacity: 0;
     }
 
@@ -308,8 +328,9 @@ section.active .menu {
     .man {
         right: -75px;
         opacity: 0.3;
-        width: 500px;
+        max-height: 65vh;
         transition: 0.5s;
+        max-width: 100%;
     }
 
     .content .contentBx a {
@@ -328,5 +349,15 @@ section.active .menu {
     .menu {
         padding-left: 0;
         align-items: center;
+    }
+}
+
+@media (max-height: 500px) {
+    section {
+        height: 500px;
+    }
+
+    .man {
+        min-height: 400px;
     }
 }
