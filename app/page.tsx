@@ -42,7 +42,7 @@ export default function Home() {
                         <a href='#'>Hire me</a>
                     </div>
                 </div>
-                <ul className='sci'>
+                <ul className='socialNetworks'>
                     <li>
                         <a href='#'>
                             <img src='/images/x.png' />
