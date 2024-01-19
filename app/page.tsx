@@ -1,73 +1,20 @@
 'use client';
 
+import Header from '@/app/components/header/header';
+import Persona from '@/app/components/persona/persona';
+import HomeContent from './components/contents/home';
+import Menu from './components/menu/menu';
+import SocialNetworks from './components/socialNetworks/social';
+
 export default function Home() {
-    const handleClick = () => {
-        let banner = document.querySelector('.banner');
-        if (banner) {
-            banner.classList.toggle('active');
-        }
-        let menuToggle = document.querySelector('.toggle');
-        if (menuToggle) {
-            menuToggle.classList.toggle('active');
-        }
-        let imageBox = document.querySelector('.imageBox');
-        if (imageBox) {
-            imageBox.classList.toggle('active');
-        }
-    };
     return (
         <main>
+            <Header />
             <section className='banner'>
-                <header>
-                    <a href='#' className='logo'>
-                        Hello<span>Max</span>
-                    </a>
-                    <div className='toggle' onClick={handleClick}></div>
-                </header>
-                <div className='imageBox'>
-                    <img src='/images/maxime.png' className='man'></img>
-                </div>
-                <div className='content'>
-                    <div className='contentBx'>
-                        <h4>Hello,</h4>
-                        <h2>
-                            I&apos;m <span>Max</span>
-                        </h2>
-                        <h3>Blockchain CTO & Full Stack Engineer</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quas vel distinctio eligendi
-                            optio molestias debitis modi dignissimos similique inventore!
-                        </p>
-                        <a href='#'>Download CV</a>
-                        <a href='#'>Hire me</a>
-                    </div>
-                </div>
-                <ul className='socialNetworks'>
-                    <li>
-                        <a href='#'>
-                            <img src='/images/x.png' />
-                        </a>
-                    </li>
-                    <li>
-                        <a href='#'>
-                            <img src='/images/linkedin.png' />
-                        </a>
-                    </li>
-                </ul>
-                <ul className='menu'>
-                    <li>
-                        <a href='#'>Home</a>
-                    </li>
-                    <li>
-                        <a href='#'>About</a>
-                    </li>
-                    <li>
-                        <a href='#'>Services</a>
-                    </li>
-                    <li>
-                        <a href='#'>Contact</a>
-                    </li>
-                </ul>
+                <Persona />
+                <HomeContent />
+                <SocialNetworks />
+                <Menu />
             </section>
         </main>
     );
