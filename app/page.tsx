@@ -1,22 +1,18 @@
 'use client';
 
 import Header from '@/app/components/header/header';
-import Persona from '@/app/components/persona/persona';
 import HomeContent from './components/contents/home';
 import Menu from './components/menu/menu';
-import SocialNetworks from './components/socialNetworks/social';
 
 export default function Home() {
     return (
-        <main>
+        <>
             <Header />
-            <section className='banner'>
-                <Persona />
+            <section className='main bg-darkblue relative flex min-h-screen w-full items-center overflow-hidden px-[100px] py-0'>
                 <HomeContent />
-                <SocialNetworks />
                 <Menu />
             </section>
-        </main>
+        </>
     );
 
     /*

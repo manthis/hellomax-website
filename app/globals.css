@@ -1,8 +1,6 @@
-/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*/
 
 /*
 :root {
@@ -19,19 +17,6 @@
     }
 }
 */
-/*
-body {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-image: radial-gradient(
-        farthest-corner at 40px 40px,
-        black 40%,
-        #43e 100%
-    );
-}
-*/
-
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
 * {
     margin: 0;
@@ -40,6 +25,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+/*
 section {
     position: relative;
     width: 100%;
@@ -50,6 +36,7 @@ section {
     background: #21283a;
     overflow: hidden;
 }
+*/
 
 section.active .logo,
 section.active .content,

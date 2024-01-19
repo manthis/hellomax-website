@@ -1,8 +1,8 @@
 export default function Header() {
     const handleClick = () => {
-        let banner = document.querySelector('.banner');
-        if (banner) {
-            banner.classList.toggle('active');
+        let main = document.querySelector('.main');
+        if (main) {
+            main.classList.toggle('active');
         }
         let menuToggle = document.querySelector('.toggle');
         if (menuToggle) {
