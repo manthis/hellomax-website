@@ -13,6 +13,7 @@ const config: Config = {
                 darkblue: '#21283a',
                 midnight: '#141821',
                 dracula: '#111',
+                night: '#161a23',
             },
             backgroundImage: {
                 'burger-bar': "url('/images/burger-bar.png')",

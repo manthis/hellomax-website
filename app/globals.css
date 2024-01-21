@@ -25,8 +25,8 @@
 }
 
 #logo.active,
-section.active .content,
-section.active .socialNetworks {
+section.active #content,
+section.active #contactzone {
     transform: scale(0);
 }
 
@@ -220,7 +220,7 @@ header .toggle.active {
         0 0 40px #1de5ff;
 }
 */
-
+/*
 .socialNetworks {
     position: absolute;
     bottom: 40px;
@@ -264,7 +264,8 @@ header .toggle.active {
 .socialNetworks li:hover a img {
     filter: invert(0);
 }
-
+*/
+/*
 .menu {
     position: fixed;
     top: 0;
@@ -281,13 +282,14 @@ header .toggle.active {
     visibility: hidden;
     transition: 0.5s;
 }
+*/
 
-section.active .menu {
+section.active #menu {
     opacity: 1;
-    visibility: visible;
     transition-delay: 0.5s;
 }
 
+/*
 .menu li {
     list-style: none;
 }
@@ -307,7 +309,7 @@ section.active .menu {
     background: white;
     color: #161a23;
 }
-
+*/
 /* Responsive */
 
 @media (max-width: 380px) {

@@ -1,5 +1,5 @@
+import ContactZone from '../contact/icons';
 import Persona from '../persona/persona';
-import SocialNetworks from '../socialNetworks/social';
 import Content from './content';
 
 export default function HomeContent() {
@@ -7,7 +7,7 @@ export default function HomeContent() {
         <>
             <Persona />
             <Content />
-            <SocialNetworks />
+            <ContactZone />
         </>
     );
 }

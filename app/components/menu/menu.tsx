@@ -1,18 +1,14 @@
+import MenuItem from './menuitem';
+
 export default function Menu() {
     return (
-        <ul className='menu'>
-            <li>
-                <a href='#'>Home</a>
-            </li>
-            <li>
-                <a href='#'>About</a>
-            </li>
-            <li>
-                <a href='#'>Services</a>
-            </li>
-            <li>
-                <a href='#'>Contact</a>
-            </li>
+        <ul
+            id='menu'
+            className='items-sart fixed left-0 top-0 z-[2] flex h-full w-full flex-col justify-center pl-[100px] opacity-0 duration-500'>
+            <MenuItem label='Home' />
+            <MenuItem label='About' />
+            <MenuItem label='Services' />
+            <MenuItem label='Contact' />
         </ul>
     );
 }
