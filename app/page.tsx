@@ -8,7 +8,9 @@ export default function Home() {
     return (
         <>
             <Header />
-            <section className='main bg-darkblue relative flex min-h-screen w-full items-center overflow-hidden px-[40px] xl:px-[100px] py-0'>
+            <section
+                id='landing'
+                className='relative flex min-h-screen w-full items-center overflow-hidden bg-darkblue px-[40px] py-0 xl:px-[100px]'>
                 <HomeContent />
                 <Menu />
             </section>

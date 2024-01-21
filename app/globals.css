@@ -25,7 +25,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-section.active .logo,
+/*
+
+TODO: Translate the following code to be Tailwind compatible
+
+*/
+#logo.active,
 section.active .content,
 section.active .socialNetworks {
     transform: scale(0);
@@ -55,12 +60,11 @@ header .logo {
     transition: 0.5s;
 }
 
-
 header .logo span {
     color: #1de5ff;
     border-bottom: 3px solid #1de5ff;
 }
-*/
+
 
 header .toggle {
     position: relative;
@@ -83,7 +87,16 @@ header .toggle.active {
     background-size: 20px;
     filter: invert(1);
 }
+*/
 
+#toggle.active {
+    background: url("/images/cross.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+/*
 .imageBox::before {
     content: "";
     position: absolute;
@@ -112,8 +125,9 @@ header .toggle.active {
             0 0 150px #1de5ff;
     }
 }
+*/
 
-.imageBox.active::before {
+#imageBox.active::before {
     background: #21283a;
     box-shadow: 0 0 0 5000px #141821;
     animation: heartbeatBlack 3s infinite alternate;
@@ -129,6 +143,7 @@ header .toggle.active {
     }
 }
 
+/*
 .man {
     position: absolute;
     bottom: 0;
@@ -138,6 +153,7 @@ header .toggle.active {
     transition: 0.5s;
     max-width: 60%;
 }
+*/
 
 .content {
     position: relative;

@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 
-// TODO: replace the font
 const poppins = Poppins({
     subsets: ['latin'],
     display: 'swap',
