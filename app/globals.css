@@ -45,3 +45,7 @@ section.active #contactzone {
     opacity: 1;
     transition-delay: 0.5s;
 }
+
+section:active {
+    background-color: #141821;
+}

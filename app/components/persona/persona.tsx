@@ -1,5 +1,4 @@
 export default function Persona() {
-    //before:animate-heartbeatBlue duration-1000 before:absolute before:right-[10%] before:top-[50%] before:h-[650px] before:w-[650px] before:rounded-full before:bg-lightblue
     return (
         <div
             id='imageBox'
