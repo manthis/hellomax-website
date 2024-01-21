@@ -12,6 +12,10 @@ body {
     box-sizing: border-box;
 }
 
+section.active {
+    background-color: #141821;
+}
+
 #logo.active,
 section.active #content,
 section.active #contactzone {
@@ -44,8 +48,4 @@ section.active #contactzone {
 #menu.active {
     opacity: 1;
     transition-delay: 0.5s;
-}
-
-section:active {
-    background-color: #141821;
 }
