@@ -5,7 +5,7 @@ interface MediaProps {
 
 export default function Media({ url, src }: MediaProps) {
     return (
-        <li className='group/media h-[50px] w-[50px] list-none'>
+        <li className='group/media mr-[10px] h-[50px] w-[50px] list-none last:mr-0'>
             <a
                 href={url}
                 className='flex h-full w-full items-center justify-center rounded-full border-2 border-solid border-white group-hover/media:bg-white'>
