@@ -1,3 +1,5 @@
+'use client';
+
 export default function Header() {
     const handleClick = () => {
         // Section
@@ -23,6 +25,12 @@ export default function Header() {
         if (logo) {
             logo.classList.toggle('active');
         }
+
+        // Menu
+        let menu = document.getElementById('menu');
+        if (menu) {
+            menu.classList.toggle('active');
+        }
     };
 
     return (
@@ -36,7 +44,7 @@ export default function Header() {
             {/* Restyle this component using Tailwind CSS */}
             <div
                 id='toggle'
-                className='bg-burger-bar bg-size-[30px] relative h-[30px] w-[30px] cursor-pointer bg-no-repeat invert'
+                className='bg-size-[30px] relative h-[30px] w-[30px] cursor-pointer bg-burger-bar bg-no-repeat invert'
                 onClick={handleClick}></div>
         </header>
     );

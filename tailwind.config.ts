@@ -34,7 +34,7 @@ const config: Config = {
                 },
             },
             boxShadow: {
-                'light-blue': '0 0 10px #1de5ff, 0 0 40px #1de5ff',
+                lightblue: '0 0 10px #1de5ff, 0 0 40px #1de5ff',
             },
         },
     },

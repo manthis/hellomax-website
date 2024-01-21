@@ -1,20 +1,14 @@
 'use client';
 
-import Header from '@/app/components/header/header';
-import Menu from './components/menu/menu';
-import HomeContent from './components/pages/home';
+import HomeContent from '@/app/components/x/home';
 
 export default function Home() {
     return (
-        <>
-            <Header />
-            <section
-                id='landing'
-                className='relative flex min-h-screen w-full items-center overflow-hidden bg-darkblue px-[40px] py-0 xl:px-[100px]'>
-                <HomeContent />
-                <Menu />
-            </section>
-        </>
+        <section
+            id='landing'
+            className='relative flex min-h-screen w-full items-center overflow-hidden bg-darkblue px-[40px] py-0 xl:px-[100px]'>
+            <HomeContent />
+        </section>
     );
 
     /*
