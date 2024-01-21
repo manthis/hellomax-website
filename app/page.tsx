@@ -1,8 +1,8 @@
 'use client';
 
 import Header from '@/app/components/header/header';
-import HomeContent from './components/contents/home';
 import Menu from './components/menu/menu';
+import HomeContent from './components/pages/home';
 
 export default function Home() {
     return (

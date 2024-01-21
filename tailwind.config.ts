@@ -12,24 +12,28 @@ const config: Config = {
                 lightblue: '#1de5ff',
                 darkblue: '#21283a',
                 midnight: '#141821',
+                dracula: '#111',
             },
-        },
-        backgroundImage: {
-            'burger-bar': "url('/images/burger-bar.png')",
-        },
-        animation: {
-            heartbeatBlue: 'heartbeatBlue 3s infinite alternate',
-        },
-        keyframes: {
-            heartbeatBlue: {
-                '0%': {
-                    transform: 'scale(1) translateY(-50%)',
-                    'box-shadow': '0 0 10px #1de5ff, 0 0 40px #1de5ff',
+            backgroundImage: {
+                'burger-bar': "url('/images/burger-bar.png')",
+            },
+            animation: {
+                heartbeatBlue: 'heartbeatBlue 3s infinite alternate',
+            },
+            keyframes: {
+                heartbeatBlue: {
+                    '0%': {
+                        transform: 'scale(1) translateY(-50%)',
+                        'box-shadow': '0 0 10px #1de5ff, 0 0 40px #1de5ff',
+                    },
+                    '100%': {
+                        transform: 'scale(1.3) translateY(-10%)',
+                        'box-shadow': '0 0 20px #1de5ff, 0 0 50px #1de5ff, 0 0 150px #1de5ff',
+                    },
                 },
-                '100%': {
-                    transform: 'scale(1.3) translateY(-10%)',
-                    'box-shadow': '0 0 20px #1de5ff, 0 0 50px #1de5ff, 0 0 150px #1de5ff',
-                },
+            },
+            boxShadow: {
+                'light-blue': '0 0 10px #1de5ff, 0 0 40px #1de5ff',
             },
         },
     },

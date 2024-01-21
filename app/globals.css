@@ -22,14 +22,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
-/*
-
-TODO: Translate the following code to be Tailwind compatible
-
-*/
 #logo.active,
 section.active .content,
 section.active .socialNetworks {
@@ -154,6 +148,7 @@ header .toggle.active {
     max-width: 60%;
 }
 */
+/*
 
 .content {
     position: relative;
@@ -224,6 +219,7 @@ header .toggle.active {
         0 0 15px #1de5ff,
         0 0 40px #1de5ff;
 }
+*/
 
 .socialNetworks {
     position: absolute;
