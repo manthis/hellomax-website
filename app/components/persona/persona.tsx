@@ -1,11 +1,11 @@
 export default function Persona() {
     return (
-        <div
-            id='imageBox'
-            className='before:2xl:absolute before:2xl:right-[10%] before:2xl:top-[50%] before:2xl:h-[650px] before:2xl:w-[650px] before:2xl:animate-heartbeatBlue before:2xl:rounded-full before:2xl:bg-lightblue'>
-            <img
-                src='/images/maxime.png'
-                className='absolute bottom-0 right-[80px] max-h-[70vh] opacity-30 duration-1000 2xl:opacity-100 portrait:right-0 landscape:max-h-[75vh]'></img>
+        <div className='absolute bottom-0 right-0 z-[5] m-0 border-0 p-0'>
+            <div
+                id='image-container'
+                className='before:2xl:absolute before:2xl:left-[50%] before:2xl:top-[50%] before:2xl:z-[-1] before:2xl:h-[110%] before:2xl:w-full before:2xl:-translate-x-[50%] before:2xl:-translate-y-[10%] before:2xl:animate-heartbeatBlue before:2xl:rounded-full before:2xl:bg-lightblue'>
+                <img src='/images/maxime.png' className='opacity-30 2xl:h-[65vh] 2xl:opacity-100 landscape:h-[75vh]' />
+            </div>
         </div>
     );
 }

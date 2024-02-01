@@ -15,9 +15,9 @@ export default function Header() {
         }
 
         // Div containing my image
-        let imageBox = document.getElementById('imageBox');
-        if (imageBox) {
-            imageBox.classList.toggle('active');
+        let imageContainer = document.getElementById('image-container');
+        if (imageContainer) {
+            imageContainer.classList.toggle('active');
         }
 
         // Logo
