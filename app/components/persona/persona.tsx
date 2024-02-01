@@ -1,6 +1,6 @@
 export default function Persona() {
     return (
-        <div className='absolute bottom-0 right-0 z-[5] m-0 border-0 p-0'>
+        <div className='absolute bottom-[-5px] right-0 z-[5] m-0 border-0 p-0'>
             <div
                 id='image-container'
                 className='before:2xl:absolute before:2xl:left-[50%] before:2xl:top-[50%] before:2xl:z-[-1] before:2xl:h-[110%] before:2xl:w-full before:2xl:-translate-x-[50%] before:2xl:-translate-y-[10%] before:2xl:animate-heartbeatBlue before:2xl:rounded-full before:2xl:bg-lightblue'>
