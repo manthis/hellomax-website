@@ -47,5 +47,6 @@ section.active #contactzone {
 
 #menu.active {
     opacity: 1;
+    z-index: 5;
     transition-delay: 0.5s;
 }
