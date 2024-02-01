@@ -7,7 +7,7 @@ export default function Home() {
         <>
             <section
                 id='landing'
-                className='relative flex min-h-[100vh] w-full items-center overflow-hidden bg-darkblue px-[40px] py-0 xl:px-[100px]'>
+                className='relative flex min-h-[100svh] w-full items-center overflow-hidden bg-darkblue px-[40px] py-0 xl:px-[100px]'>
                 <HomeContent />
             </section>
         </>
