@@ -23,28 +23,29 @@ const About = () => {
                     <br />
                     My expertise spans three pivotal areas:
                     <br />
-                    <ul className='mx-6 my-4 list-disc xl:mx-20'>
-                        <li className='my-2'>
-                            <span className='text-lightblue'>Technical Expertise:</span> My foundation was laid in the
-                            intricate world of development, where I honed my skills as a developer. I then expanded my
-                            horizon into DevOps, seamlessly integrating development with operations, and delved into the
-                            realm of security as a consultant, ensuring robust and resilient systems.{' '}
-                        </li>
-                        <li className='my-2'>
-                            <span className='text-lightblue'>Management:</span> My leadership capabilities truly shone
-                            as I built international teams from the ground up. I mastered the art of team assembly and
-                            development, scaling groups to as large as 40 members. This experience not only tested but
-                            also enriched my management skills, enabling me to lead diverse and dynamic teams
-                            successfully.
-                        </li>
-                        <li className='my-2'>
-                            <span className='text-lightblue'>Entrepreneurship:</span> My entrepreneurial spirit took
-                            flight when I launched my own startup, a journey that taught me the intricacies of business
-                            creation and growth. Furthermore, my role as a CTO as a Service for several years allowed me
-                            to impart my technical and strategic expertise to various ventures, guiding them towards
-                            technological excellence.
-                        </li>
-                    </ul>
+                </p>
+                <ul className='mx-6 my-4 list-disc text-white xl:mx-20'>
+                    <li className='my-2'>
+                        <span className='text-lightblue'>Technical Expertise:</span> My foundation was laid in the
+                        intricate world of development, where I honed my skills as a developer. I then expanded my
+                        horizon into DevOps, seamlessly integrating development with operations, and delved into the
+                        realm of security as a consultant, ensuring robust and resilient systems.{' '}
+                    </li>
+                    <li className='my-2'>
+                        <span className='text-lightblue'>Management:</span> My leadership capabilities truly shone as I
+                        built international teams from the ground up. I mastered the art of team assembly and
+                        development, scaling groups to as large as 40 members. This experience not only tested but also
+                        enriched my management skills, enabling me to lead diverse and dynamic teams successfully.
+                    </li>
+                    <li className='my-2'>
+                        <span className='text-lightblue'>Entrepreneurship:</span> My entrepreneurial spirit took flight
+                        when I launched my own startup, a journey that taught me the intricacies of business creation
+                        and growth. Furthermore, my role as a CTO as a Service for several years allowed me to impart my
+                        technical and strategic expertise to various ventures, guiding them towards technological
+                        excellence.
+                    </li>
+                </ul>
+                <p className='text-white'>
                     <br />
                     Today, as a freelance professional, I apply this wealth of experience to a diverse array of clients,
                     ranging from startups to established enterprises.
