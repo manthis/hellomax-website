@@ -15,10 +15,10 @@ const About = () => {
                 <p className='mt-10 text-white '>
                     <span className='text-lightblue'>With 15 years of rich experience in the Tech Industry</span>, I
                     have cultivated a deep passion for
-                    <span className='text-lightblue'> Leadership</span>, <span className='text-lightblue'>People</span>,
+                    <span className='text-lightblue'> Leadership</span>, <span className='text-lightblue'>People</span>,{' '}
                     <span className='text-lightblue'>Technology</span>, and{' '}
-                    <span className='text-lightblue'>Products</span>. My journey is marked by a relentless drive to
-                    create impact and innovate at every step.
+                    <span className='text-lightblue'>Products</span>
+                    . My journey is marked by a relentless drive to create impact and innovate at every step.
                     <br />
                     <br />
                     My expertise spans three pivotal areas:
