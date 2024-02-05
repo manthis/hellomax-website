@@ -17,9 +17,12 @@ const config: Config = {
             },
             backgroundImage: {
                 'burger-bar': "url('/images/menu/burger-bar.png')",
+                background1: "url('/images/backgrounds/background1.png')",
+                background2: "url('/images/backgrounds/background3.png')",
             },
             animation: {
                 heartbeatBlue: 'heartbeatBlue 3s infinite alternate',
+                flashing: 'flashing 1s infinite alternate',
             },
             keyframes: {
                 heartbeatBlue: {
@@ -29,6 +32,14 @@ const config: Config = {
                     },
                     '100%': {
                         transform: 'scale(1.0) translateY(-70%) translateX(-50%)',
+                        'box-shadow': '0 0 20px #1de5ff, 0 0 50px #1de5ff, 0 0 150px #1de5ff',
+                    },
+                },
+                flashing: {
+                    '0%': {
+                        'box-shadow': '0 0 10px #1de5ff, 0 0 40px #1de5ff',
+                    },
+                    '100%': {
                         'box-shadow': '0 0 20px #1de5ff, 0 0 50px #1de5ff, 0 0 150px #1de5ff',
                     },
                 },

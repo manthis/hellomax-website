@@ -1,15 +1,13 @@
 'use client';
 
-import HomeContent from '@/app/components/homecontent/home';
+import About from '@/app/components/about/about';
+import Landing from '@/app/components/landing/landing';
 
 export default function Home() {
     return (
         <>
-            <section
-                id='landing'
-                className='relative flex min-h-[100svh] w-full items-center overflow-hidden bg-darkblue px-[40px] py-0 xl:px-[100px]'>
-                <HomeContent />
-            </section>
+            <Landing />
+            <About />
         </>
     );
 }
