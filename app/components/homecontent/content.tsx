@@ -13,7 +13,7 @@ export default function Content() {
                 <h3 className='text-2xl font-light leading-[1.5em] text-white landscape:2xl:text-3xl'>
                     Blockchain CTO & Full Stack Engineer
                 </h3>
-                <p className='mb-[20px] mt-[10px] text-base text-white landscape:text-sm'>
+                <p className='mb-[20px] mt-[10px] text-base italic text-white landscape:text-sm'>
                     Empowering Your Business: Engineering Excellence in Crafting Apps, Elevating Teams, and Scaling
                     Success!
                 </p>
