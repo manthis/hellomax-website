@@ -4,15 +4,15 @@ const About = () => {
     return (
         <section
             id='about'
-            className='bg-background2 relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-cover bg-fixed bg-center bg-no-repeat px-[40px] py-0 xl:px-[100px]'>
-            <div className='z-40 my-20 rounded-2xl bg-darkblue p-6 text-justify opacity-95 xl:my-40 xl:w-2/3 xl:p-10'>
+            className='xl:bg-background2 relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-dracula bg-cover bg-fixed bg-center bg-no-repeat px-[40px] py-0 xl:px-[100px]'>
+            <div className='z-40 my-10 rounded-2xl bg-midnight p-6 text-justify opacity-95 xl:my-40 xl:w-2/3 xl:p-10'>
                 <h1 className='mb-10 mt-6 text-3xl font-extrabold text-white'>About me</h1>
-                <div className='flex justify-center py-10 '>
+                <div className='flex justify-center py-10'>
                     <div className='xl:animate-flashing rounded-full shadow-lightblue'>
                         <img src='/images/profile_logo.png' />
                     </div>
                 </div>
-                <p className='mt-10 text-white '>
+                <p className='mt-10 text-white'>
                     <span className='text-lightblue'>With 15 years of rich experience in the Tech Industry</span>, I
                     have cultivated a deep passion for
                     <span className='text-lightblue'> Leadership</span>, <span className='text-lightblue'>People</span>,{' '}
