@@ -23,7 +23,7 @@ section.active #contactzone {
 }
 
 #toggle.active {
-    background: url("/images/cross.png");
+    background: url("/images/menu/cross.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
@@ -49,4 +49,14 @@ section.active #contactzone {
     opacity: 1;
     z-index: 5;
     transition-delay: 0.5s;
+}
+
+/* Tooltips */
+
+.tooltip {
+    @apply relative cursor-pointer;
+}
+.tooltip::before {
+    content: attr(data-tooltip);
+    @apply invisible absolute z-50 flex w-[100px] -translate-x-6 -translate-y-12 items-center justify-center rounded-xl bg-gray-700 p-2 text-xs text-white opacity-0 transition-opacity duration-300 hover:visible hover:opacity-100;
 }

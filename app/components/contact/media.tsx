@@ -1,11 +1,12 @@
 interface MediaProps {
     url?: string | '#';
     src: string;
+    tooltip: string;
 }
 
-export default function Media({ url, src }: MediaProps) {
+export default function Media({ url, src, tooltip }: MediaProps) {
     return (
-        <li className='group/media mr-[10px] h-[50px] w-[50px] list-none last:mr-0'>
+        <li className='group/media tooltip mr-[10px] h-[50px] w-[50px] list-none last:mr-0' data-tooltip={tooltip}>
             <a
                 href={url}
                 className='flex h-full w-full items-center justify-center rounded-full border-2 border-solid border-white group-hover/media:bg-white'>

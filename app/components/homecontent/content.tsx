@@ -14,8 +14,8 @@ export default function Content() {
                     Blockchain CTO & Full Stack Engineer
                 </h3>
                 <p className='mb-[20px] mt-[10px] text-base text-white landscape:text-sm'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quas vel distinctio eligendi optio
-                    molestias debitis modi dignissimos similique inventore!
+                    Empowering Your Business: Engineering Excellence in Crafting Apps, Elevating Teams, and Scaling
+                    Success!
                 </p>
 
                 <Button label="Let's meet" />

@@ -16,7 +16,7 @@ const config: Config = {
                 night: '#161a23',
             },
             backgroundImage: {
-                'burger-bar': "url('/images/burger-bar.png')",
+                'burger-bar': "url('/images/menu/burger-bar.png')",
             },
             animation: {
                 heartbeatBlue: 'heartbeatBlue 3s infinite alternate',
