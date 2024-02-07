@@ -4,8 +4,8 @@ const About = () => {
     return (
         <section
             id='about'
-            className='xl:bg-background2 relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-dracula bg-cover bg-fixed bg-center bg-no-repeat px-[40px] py-0 xl:px-[100px]'>
-            <div className='z-40 my-10 rounded-2xl bg-midnight p-6 text-justify opacity-95 xl:my-40 xl:w-2/3 xl:p-10'>
+            className='xl:bg-background2 relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-midnight bg-cover bg-fixed bg-center bg-no-repeat px-[40px] py-0 xl:px-[100px]'>
+            <div className='z-40 my-20 rounded-2xl bg-midnight text-justify opacity-95 xl:my-40 xl:w-2/3 xl:p-10 xl:backdrop-blur-md'>
                 <h1 className='mb-10 mt-6 text-3xl font-extrabold text-white'>About me</h1>
                 <div className='flex justify-center py-10'>
                     <div className='xl:animate-flashing rounded-full shadow-lightblue'>
