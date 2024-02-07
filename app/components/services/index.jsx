@@ -7,15 +7,17 @@ const Services = () => {
             id='services'
             className='relative flex min-h-[100svh] w-full flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-darkblue to-dracula py-20 text-white'>
             <h1 className='mb-10 w-full max-w-7xl text-left text-5xl font-semibold text-white '>Services</h1>
-            <div className='flex w-full max-w-7xl flex-col items-center justify-center rounded-3xl px-[40px] py-10 xl:px-[100px]'>
-                <div className='flex w-full items-center justify-between'>
-                    <Card id='cto' title='CTO as a Service' image={'/images/services/cto.png'}></Card>
-                    <Card
-                        id='blockchain'
-                        title='Blockchain Fullstack Engineer'
-                        image={'/images/services/ethereum.png'}
-                    />
-                    <Card id='web2' title='Web2 Fullstack Engineer' image={'/images/services/web.png'} />
+            <div className='flex w-full max-w-7xl flex-col items-center justify-center rounded-3xl bg-background2 bg-cover bg-fixed bg-center bg-no-repeat'>
+                <div className='w-full rounded-3xl p-10 backdrop-blur backdrop-grayscale  backdrop-filter'>
+                    <div className='flex w-full items-center justify-between'>
+                        <Card id='cto' title='CTO as a Service' image={'/images/services/cto.png'}></Card>
+                        <Card
+                            id='blockchain'
+                            title='Blockchain Fullstack Engineer'
+                            image={'/images/services/ethereum.png'}
+                        />
+                        <Card id='web2' title='Web2 Fullstack Engineer' image={'/images/services/web.png'} />
+                    </div>
                 </div>
             </div>
             <div
