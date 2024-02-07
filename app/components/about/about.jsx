@@ -4,12 +4,12 @@ const About = () => {
     return (
         <section
             id='about'
-            className='xl:bg-background2 relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-cover bg-fixed bg-center bg-no-repeat py-0'>
+            className='relative flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-cover bg-fixed bg-center bg-no-repeat py-0 xl:bg-background2'>
             <div className='flex min-h-[100svh] w-full justify-center backdrop-blur backdrop-grayscale'>
                 <div className='bg-gradient-to-b from-dracula to-darkblue px-[40px] py-20 text-justify xl:my-40 xl:w-2/3 xl:rounded-2xl xl:px-[100px] xl:opacity-95'>
                     <h1 className='mb-10 mt-6 text-5xl font-semibold text-white'>About me</h1>
                     <div className='flex justify-center py-10'>
-                        <div className='xl:animate-flashing rounded-full shadow-lightblue '>
+                        <div className='rounded-full shadow-lightblue xl:animate-flashing '>
                             <img src='/images/profile_logo.png' />
                         </div>
                     </div>

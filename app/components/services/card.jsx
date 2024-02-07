@@ -49,15 +49,15 @@ const Card = ({ id, title, image }) => {
     };
 
     let style =
-        'flex h-80 min-h-60 w-full min-w-[200px] cursor-pointer flex-col items-center justify-center rounded-xl border-[1px] border-lightblue bg-lightblue bg-opacity-40 px-10 py-10 backdrop-blur-md backdrop-filter hover:bg-lightblue hover:bg-opacity-90 hover:shadow-2xl hover:shadow-lightblue xl:mr-[60px] xl:last:mx-0';
+        'flex xl:h-80 xl:min-h-60 w-full min-w-[200px] cursor-pointer xl:flex-col items-center justify-center rounded-xl border-[1px] border-lightblue bg-lightblue bg-opacity-40 xl:p-10 backdrop-blur-md backdrop-filter hover:bg-lightblue hover:bg-opacity-90 hover:shadow-2xl hover:shadow-lightblue xl:mr-[60px] xl:last:mx-0 mb-4 last:mb-0';
     if (id === 'cto') {
         style += ' shadow-lightblue bg-opacity-90';
     }
 
     return (
         <div id={id} onClick={(e) => handleClick(e, id)} className={style}>
-            <img src={image} className='h-20 invert' />
-            <h1 className='mt-10 text-center font-semibold uppercase text-white'>{title}</h1>
+            <img src={image} className='mr-2 h-8 invert xl:mr-0 xl:h-20' />
+            <h1 className='text-center font-semibold uppercase text-white xl:mt-10'>{title}</h1>
         </div>
     );
 };
