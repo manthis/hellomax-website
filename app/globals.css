@@ -45,11 +45,13 @@ section.active #contactzone {
     }
 }
 
+/*
 #menu.active {
     opacity: 1;
-    z-index: 5;
+    z-index: 0;
     transition-delay: 0.5s;
 }
+*/
 
 /* Tooltips */
 
@@ -58,5 +60,5 @@ section.active #contactzone {
 }
 .tooltip::before {
     content: attr(data-tooltip);
-    @apply invisible absolute z-50 flex w-[100px] -translate-x-6 -translate-y-12 items-center justify-center rounded-xl bg-gray-700 p-2 text-xs text-white opacity-0 transition-opacity duration-300 hover:visible hover:opacity-100;
+    @apply invisible absolute flex w-[100px] -translate-x-6 -translate-y-12 items-center justify-center rounded-xl bg-gray-700 p-2 text-xs text-white opacity-0 transition-opacity duration-300 hover:visible hover:opacity-100;
 }

@@ -34,7 +34,7 @@ export default function Header() {
     };
 
     return (
-        <header className='fixed left-0 top-0 z-50 flex w-full items-center justify-between px-[40px] py-[10px] xl:px-[100px] xl:py-[30px]'>
+        <header className='fixed left-0 top-0 z-20 flex w-full items-center justify-between px-[40px] py-[10px] xl:px-[100px] xl:py-[30px]'>
             <div
                 id='logo'
                 className='origin-left text-xl font-semibold uppercase tracking-widest text-white no-underline duration-500 xl:text-2xl'>
