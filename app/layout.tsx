@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
-import Footer from './components/footer';
 import Header from './components/header/header';
 import './globals.css';
 
@@ -22,8 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body className={poppins.className} suppressHydrationWarning={true}>
                 <Header />
                 {children}
-                {/* <Menu /> */}
-                <Footer />
+                {/* <Menu /> 
+                <Footer />*/}
             </body>
         </html>
     );
