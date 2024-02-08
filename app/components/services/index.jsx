@@ -68,7 +68,7 @@ const Services = () => {
                     <div className='grid grid-flow-row-dense grid-cols-1 gap-10 xl:grid-cols-2'>
                         <Service
                             title='Smart Contract / Solidity Development'
-                            icon='/images/services/early.png'
+                            icon='/images/services/contract.png'
                             colspan={true}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -76,14 +76,14 @@ const Services = () => {
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Service>
-                        <Service title='dApp development' icon='/images/services/ondemand.png'>
+                        <Service title='dApp development' icon='/images/services/app.png'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Service>
-                        <Service title='Decentralized Platform Engineering' icon='/images/services/audit.png'>
+                        <Service title='Decentralized Platform Engineering' icon='/images/services/devops.png'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -96,28 +96,28 @@ const Services = () => {
                     id='web2-content'
                     className=' mt-10 hidden w-full max-w-7xl items-center justify-center rounded-3xl py-10'>
                     <div className='grid grid-flow-row-dense grid-cols-1 gap-10 xl:grid-cols-2'>
-                        <Service title='Fullstack Web Developer' icon='/images/services/early.png'>
+                        <Service title='Fullstack Web Developer' icon='/images/services/fullstack.png'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Service>
-                        <Service title='Frontend Web Developer' icon='/images/services/audit.png'>
+                        <Service title='Frontend Web Developer' icon='/images/services/frontend.png'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Service>
-                        <Service title='Backend Web Developer' icon='/images/services/audit.png'>
+                        <Service title='Backend Web Developer' icon='/images/services/backend.png'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </Service>
-                        <Service title='Mobile Developer' icon='/images/services/ondemand.png'>
+                        <Service title='Mobile Developer' icon='/images/services/mobile.png'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
