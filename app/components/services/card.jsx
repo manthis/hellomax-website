@@ -49,7 +49,7 @@ const Card = ({ id, title, image }) => {
     };
 
     let style =
-        'flex xl:h-80 xl:min-h-60 w-full min-w-[200px] cursor-pointer xl:flex-col items-center justify-center rounded-xl border-[1px] border-lightblue bg-lightblue bg-opacity-40 xl:p-10 backdrop-blur-md backdrop-filter hover:bg-lightblue hover:bg-opacity-90 hover:shadow-2xl hover:shadow-lightblue xl:mr-[60px] xl:last:mx-0 mb-4 last:mb-0';
+        'flex xl:h-80 xl:min-h-60 w-full min-w-[200px] cursor-pointer xl:flex-col items-center justify-center rounded-xl border-[1px] border-lightblue bg-lightblue bg-opacity-40 xl:p-10 backdrop-blur-md backdrop-filter hover:bg-lightblue hover:bg-opacity-90 hover:shadow-2xl hover:shadow-lightblue xl:mr-[60px] xl:last:mx-0 mb-5 last:mb-0 p-2';
     if (id === 'cto') {
         style += ' shadow-lightblue bg-opacity-90';
     }
