@@ -72,7 +72,7 @@ const About = () => {
                         </span>
                         .
                     </p>
-                    <div className='mt-10 flex justify-center xl:mt-20'>
+                    <div className='mt-10 flex items-center justify-center xl:mt-20'>
                         <Button label='Check my LinkedIN' link='https://www.linkedin.com/in/maxime-auburtin' />
                         <Button
                             label='Check my CV'
