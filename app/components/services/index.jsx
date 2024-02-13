@@ -269,11 +269,11 @@ const Services = () => {
                             user satisfaction.
                             <br />
                             <br />
-                            By leveraging Solidity, Ethers.js, Hardhat, Next.js, Viem.sh, Wagmi.sh, and RainbowKit, I'm
-                            equipped to create dApps that are at the forefront of blockchain technology. Let&apos;s
-                            collaborate to develop decentralized applications that push the boundaries of what&apos;s
-                            possible, delivering significant value to your users and distinguishing your project in the
-                            dynamic blockchain ecosystem.
+                            By leveraging Solidity, Ethers.js, Hardhat, Next.js, Viem.sh, Wagmi.sh, and RainbowKit,
+                            I&apos;m equipped to create dApps that are at the forefront of blockchain technology.
+                            Let&apos;s collaborate to develop decentralized applications that push the boundaries of
+                            what&apos;s possible, delivering significant value to your users and distinguishing your
+                            project in the dynamic blockchain ecosystem.
                         </Service>
                         <Service title='Decentralized Platform Engineering' icon='/images/services/devops.png'>
                             In the blockchain sector, my “Decentralized Platform Engineering” service offers a vital
