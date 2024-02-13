@@ -20,8 +20,8 @@ export default function Content() {
                     </span>
                 </p>
 
-                <Button label="Let's meet" />
-                <Button label='Hire me' />
+                <Button label="Let's meet" link='https://calendly.com/hell0max/15min' />
+                <Button label='Hire me' link='mailto:m@hellomax.io' />
             </div>
         </div>
     );

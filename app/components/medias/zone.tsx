@@ -10,7 +10,10 @@ export default function ContactZone() {
             <Media src='/images/medias/enveloppe.png' tooltip='Email' url='mailto:m@hellomax.io'></Media>
             <Media src='/images/medias/sms.png' tooltip='iMessage' url='sms:33769403192'></Media>
             <Media src='/images/medias/whatsapp.png' tooltip='Whatsapp' url='https://wa.me/33667424130'></Media>
-            <Media src='/images/medias/calendrier.png' tooltip='Calendly'></Media>
+            <Media
+                src='/images/medias/calendrier.png'
+                tooltip='Calendly'
+                url='https://calendly.com/hell0max/15min'></Media>
             {/*
             <Media
                 src='/images/medias/ethereum.png'
