@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import Header from './components/header/header';
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 {/* <Menu /> 
                 <Footer />*/}
             </body>
+            <GoogleAnalytics gaId='G-ZQ7MNNN7P4' />
         </html>
     );
 }
