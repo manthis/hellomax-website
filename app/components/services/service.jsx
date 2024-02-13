@@ -1,6 +1,6 @@
 const Service = ({ children, title, icon = '', colspan = false }) => {
     let style =
-        'rounded-xl xl:border-[1px] xl:border-lightblue xl:bg-lightblue xl:bg-opacity-40 xl:p-10 xl:opacity-90 xl:mx-0';
+        'rounded-xl xl:border-[1px] xl:border-darkblue xl:bg-darkblue xl:p-10 xl:opacity-100 xl:bg-opacity-50 xl:mx-0 backdrop-blur';
     if (colspan) {
         style += ' xl:col-span-2';
     }
