@@ -186,7 +186,7 @@ const Services = () => {
                             your operations, protect your data, and secure the trust of your customers and stakeholders.
                         </Service>
                         <Service title='Career Path' icon='' colspan={true}>
-                            n today’s rapidly evolving tech landscape, crafting a clear and strategic career path is
+                            In today’s rapidly evolving tech landscape, crafting a clear and strategic career path is
                             vital for the growth and development of your technical team. My service as a CTO in creating
                             career paths is designed to empower tech companies with the tools and insights needed to
                             develop a structured progression plan for their engineering teams. This service not only
