@@ -74,10 +74,12 @@ const About = () => {
                     </p>
                     <div className='mt-10 flex items-center justify-center xl:mt-20'>
                         <Button label='Check my LinkedIn' link='https://www.linkedin.com/in/maxime-auburtin' />
+                        {/* 
                         <Button
                             label='Check my CV'
                             link='https://www.notion.so/Maxime-AUBURTIN-70d41a39802441aea91b41af1fc0e9ca?pvs=4'
                         />
+                        */}
                     </div>
                 </div>
             </div>
