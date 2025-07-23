@@ -1,4 +1,11 @@
-const Service = ({ children, title, icon = '', colspan = false }) => {
+interface ServiceProps {
+    children: React.ReactNode;
+    title: string;
+    icon?: string;
+    colspan?: boolean;
+}
+
+const Service: React.FC<ServiceProps> = ({ children, title, icon = '', colspan = false }) => {
     let style =
         'rounded-xl xl:border-[1px] xl:border-darkblue xl:bg-darkblue xl:p-10 xl:opacity-100 xl:bg-opacity-50 xl:mx-0 backdrop-blur';
     if (colspan) {

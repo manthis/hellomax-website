@@ -1,0 +1,151 @@
+{
+    "metadata": {
+        "title": "HelloMax",
+        "description": "Maxime AUBURTIN - CTO Blockchain & Ingénieur Fullstack"
+    },
+    "landing": {
+        "greeting": "Bonjour,",
+        "name": "Je suis Max",
+        "title": "CTO Blockchain & Ingénieur Full Stack",
+        "description": "Dynamiser votre entreprise : ",
+        "descriptionQuote": "L'excellence en ingénierie pour créer des applications, élever les équipes et faire croître le succès !",
+        "meetButton": "Rencontrons-nous",
+        "hireButton": "Engagez-moi"
+    },
+    "services": {
+        "title": "Services",
+        "categories": {
+            "cto": {
+                "title": "CTO en tant que Service",
+                "services": {
+                    "earlyStage": {
+                        "title": "CTO de Démarrage",
+                        "content": "En vous lançant dans votre parcours entrepreneurial, le choix du bon Directeur Technique (CTO) devient crucial. Trouver un partenaire dont les compétences techniques et la vision s'alignent avec les vôtres représente un défi significatif. C'est là que réside la valeur de mon offre unique en tant que CTO de démarrage. Je fournis des conseils spécialisés depuis la création de votre entreprise jusqu'à votre premier tour de financement significatif. Loin de simplement occuper un poste temporairement, mon objectif est de travailler étroitement avec vous, de comprendre profondément votre vision et d'établir des fondations techniques solides critiques pour la croissance à long terme de votre entreprise.\n\nDans ma capacité, je dirige votre stratégie technologique et aide à identifier et intégrer le CTO parfait pour votre succès durable. Ce partenariat est conçu pour garantir que votre infrastructure technologique ne soit pas seulement adéquate mais supérieure, positionnant votre entreprise pour un succès inégalé.\n\nAvec ma vaste expérience et mes perspectives stratégiques, je navigue habilement dans les complexités du paysage technologique. Je m'assure que vos opérations technologiques soient non seulement innovantes mais aussi parfaitement alignées avec vos objectifs commerciaux. Opter pour mes services signifie sécuriser un partenaire stratégique engagé à poser les bases technologiques essentielles pour propulser votre entreprise vers l'avant. Embarquons ensemble dans ce voyage, créant un avenir où votre entreprise ne se contente pas de croître mais prospère."
+                    },
+                    "screening": {
+                        "title": "Sélection de CTO",
+                        "content": "Sélectionner le bon Directeur Technique (CTO) est une décision critique pour toute entreprise, pourtant évaluer les capacités techniques et de leadership des candidats peut être difficile sans l'expertise requise. Mon service de \"Sélection de CTO\" comble cette lacune, offrant un processus de recrutement sur mesure pour évaluer de manière complète l'aptitude d'un candidat au poste de CTO.\n\nGrâce à ce service, je mène une évaluation détaillée des compétences du candidat, couvrant des domaines essentiels tels que les connaissances techniques, la pensée stratégique, les capacités de leadership et leur potentiel à favoriser l'innovation et la croissance. Mon approche assure une revue holistique des qualifications du candidat face aux diverses exigences du poste de CTO.\n\nL'objectif est de vous fournir une compréhension claire des forces et des domaines de développement du candidat, permettant une décision d'embauche éclairée. En tirant parti de ma vaste expérience en leadership technologique, je simplifie les complexités du rôle de CTO, vous aidant à identifier un candidat qui possède non seulement les compétences techniques, mais aussi la vision et les qualités de leadership nécessaires pour conduire le succès de votre entreprise.\n\nChoisir mon service de \"Sélection de CTO\" est un investissement stratégique dans l'avenir de votre entreprise, garantissant la sélection d'un CTO qui contribuera significativement à vos objectifs technologiques et organisationnels. Permettez-moi de vous guider dans la recherche d'un candidat qui se démarque, garantissant la préparation de votre entreprise pour les défis et opportunités futures."
+                    },
+                    "onDemand": {
+                        "title": "CTO à la Demande / Intérimaire",
+                        "content": "Dans le monde des affaires d'aujourd'hui, avoir le bon leadership technique est crucial pour le succès. C'est là qu'intervient mon service de \"CTO à la Demande / Intérimaire\". Disponible pour des engagements à temps partiel et à temps plein, j'interviens pour diriger votre vision et exécution technologique avec précision et agilité.\n\nQue vous naviguiez à travers une phase de transition, que vous fassiez face à un projet critique, ou que vous ayez simplement besoin de conseils d'expert pour faire évoluer votre technologie, je suis là pour mener votre équipe vers la réalisation de vos objectifs stratégiques. Avec une compréhension profonde de l'écosystème des startups et des paysages technologiques établis, j'apporte une richesse d'expérience pour résoudre rapidement les défis complexes, stimuler l'innovation et assurer que vos opérations technologiques s'alignent avec vos objectifs commerciaux.\n\nM'embaucher signifie plus que simplement combler un vide ; il s'agit d'insuffler à vos projets une vision stratégique, une excellence technique et une approche pratique du leadership qui favorise la croissance de l'équipe et l'innovation produit. Laissez-moi prendre les rênes de votre département technologique, et ensemble, nous naviguerons dans les complexités du monde numérique, garantissant que votre entreprise non seulement survit mais prospère dans son paysage concurrentiel.\n\nCette offre est conçue pour être flexible, s'adaptant à vos besoins spécifiques et calendriers, fournissant le leadership stratégique nécessaire pour élever votre technologie, sans l'engagement à long terme d'un cadre à temps plein."
+                    },
+                    "audit": {
+                        "title": "Audit et Optimisation d'Ingénierie",
+                        "content": "Dans le paysage concurrentiel d'aujourd'hui, optimiser votre service d'ingénierie est primordial pour stimuler l'innovation et l'efficacité. Mon offre \"Audit et Optimisation du Service d'Ingénierie\" est conçue pour autonomiser votre entreprise en évaluant minutieusement vos opérations d'ingénierie. Ce service audite méticuleusement l'ensemble de votre département d'ingénierie pour identifier les inefficacités, les goulots d'étranglement et les domaines nécessitant des améliorations.\n\nLe processus commence par un examen complet, créant un instantané détaillé de votre paysage d'ingénierie actuel. J'évalue divers aspects, incluant les processus, la dynamique d'équipe, les piles technologiques et l'intégration des flux de travail. L'objectif est d'identifier les domaines sous-performants et de fournir des recommandations actionnables pour améliorer les performances, rationaliser les processus et encourager une culture d'excellence et d'amélioration continue.\n\nSuite à l'audit, je propose un ensemble d'optimisations sur mesure visant à transformer votre service d'ingénierie. Ces recommandations vont du raffinement des processus et de l'adoption technologique à la restructuration d'équipe, toutes conçues pour s'aligner avec les objectifs stratégiques de votre entreprise et conduire des améliorations significatives.\n\nChoisir ce service signifie s'engager à élever vos capacités d'ingénierie, garantissant qu'elles non seulement respectent mais dépassent les normes de l'industrie. Laissez-moi vous guider dans la refonte de votre département d'ingénierie en une unité plus efficace, innovante et productive, posant les bases du succès soutenu et de la croissance de votre entreprise.\n\nCette offre fournit une voie stratégique pour renforcer votre service d'ingénierie, garantissant que votre organisation reste à l'avant-garde de l'avancement technologique et de l'excellence opérationnelle."
+                    },
+                    "coaching": {
+                        "title": "Coaching",
+                        "content": "Mon \"Service de Coaching CTO\" est spécifiquement conçu pour les Directeurs Techniques cherchant à amplifier leurs compétences de leadership et stratégiques dans l'environnement technologique en évolution rapide. Ce service personnalisé fournit des conseils approfondis, autonomisant les CTO à aborder efficacement les défis étendus de leur rôle, de l'amélioration des performances d'équipe et de l'alignement des stratégies technologiques avec les objectifs commerciaux à la promotion d'une culture d'innovation et d'amélioration continue.\n\nLes sessions de coaching sont adaptées aux besoins spécifiques de chaque CTO, offrant un espace sûr pour explorer des sujets tels que le développement du leadership, la gestion de l'innovation, la navigation des transitions technologiques, la dynamique d'équipe et l'intégration avec des stratégies commerciales plus larges. Cette approche complète vise à fournir aux CTO des perspectives stratégiques, des conseils pratiques et la confiance pour diriger avec autorité, implémenter les meilleures pratiques et prendre des décisions impactantes.\n\nEn s'engageant dans ce coaching, les CTO entreprennent un voyage transformateur pour affiner leurs capacités de leadership, conduisant ainsi leurs équipes à atteindre des performances optimales et apportant des contributions significatives à leurs organisations. Le service garantit un plan de développement focalisé qui s'aligne avec les objectifs personnels et organisationnels, facilitant le succès soutenu et l'innovation.\n\nCe partenariat offre plus qu'un simple coaching ; c'est un investissement pour devenir un leader exceptionnel capable de guider votre équipe et votre entreprise vers de nouveaux sommets dans l'industrie technologique concurrentielle."
+                    },
+                    "cyber": {
+                        "title": "CTO Cyber",
+                        "content": "Dans le monde interconnecté d'aujourd'hui, la cybersécurité n'est pas seulement une nécessité mais un aspect critique de toute organisation réussie. Mon service \"CTO Cyber\" est spécifiquement conçu pour répondre à ce besoin, fournissant aux leaders et CTO l'expertise requise pour sécuriser leurs systèmes d'information, infrastructure et applications de manière complète.\n\nEn tant que votre CTO Cyber, j'apporte une richesse d'expérience à la table, offrant des conseils stratégiques et un support technique pour améliorer la posture de cybersécurité de votre entreprise. Des évaluations de risque à la mise en œuvre de protocoles de sécurité de pointe, mon service couvre toutes les bases pour garantir que vos actifs numériques soient protégés contre les menaces cyber évolutives.\n\nUn focus significatif de ce service est sur l'autonomisation de votre équipe d'ingénierie. En instillant les meilleures pratiques pour le développement sécurisé et en fournissant l'accès aux derniers outils et technologies, je vise à élever les capacités de votre équipe, garantissant que la sécurité soit intégrée à chaque niveau de votre processus de développement. Cette approche non seulement atténue les risques mais favorise également une culture de sécurité au sein de votre organisation, contribuant à une infrastructure plus robuste et résiliente.\n\nChoisir mon service CTO Cyber signifie prioriser la sécurité et l'intégrité de votre entreprise. Laissez-moi vous guider à travers les complexités de la cybersécurité, aidant à protéger vos opérations, protéger vos données et sécuriser la confiance de vos clients et parties prenantes."
+                    },
+                    "careerPath": {
+                        "title": "Parcours Professionnel",
+                        "content": "Dans le paysage technologique en évolution rapide d'aujourd'hui, élaborer un parcours professionnel clair et stratégique est vital pour la croissance et le développement de votre équipe technique. Mon service en tant que CTO pour créer des parcours professionnels est conçu pour autonomiser les entreprises technologiques avec les outils et perspectives nécessaires pour développer un plan de progression structuré pour leurs équipes d'ingénierie. Ce service vise non seulement à clarifier les étapes nécessaires pour l'avancement individuel au sein de l'organisation mais garantit également l'alignement avec les objectifs de l'entreprise.\n\nTirant parti de ma vaste expérience en tant que CTO, j'offre une approche complète qui englobe l'évaluation des compétences, la définition des rôles, la fixation d'objectifs et le développement de programmes de mentorat. En identifiant les compétences clés et les jalons, je vous aide à établir un parcours professionnel transparent et motivant qui encourage l'apprentissage continu et le développement professionnel. Ceci aide non seulement à retenir les meilleurs talents en fournissant des opportunités de croissance claires mais améliore également la productivité globale et l'innovation au sein de votre équipe technologique.\n\nChoisir mon service signifie opter pour un partenaire stratégique dédié à favoriser une culture d'excellence et d'ambition au sein de votre organisation. Ensemble, nous concevrons un cadre de parcours professionnel qui non seulement répond aux aspirations des membres de votre équipe mais propulse également votre entreprise vers la réalisation de sa vision technologique. Collaborons pour construire un environnement bienveillant où vos ingénieurs peuvent prospérer et contribuer au succès de votre entreprise à leur plein potentiel."
+                    }
+                }
+            },
+            "blockchain": {
+                "title": "Développeur Blockchain",
+                "services": {
+                    "smartContract": {
+                        "title": "Développement de Contrats Intelligents / Solidity",
+                        "content": "Dans le domaine de pointe de la blockchain, la création et le déploiement de contrats intelligents utilisant Solidity constituent des éléments cruciaux pour créer des applications décentralisées sécurisées, efficaces et transparentes. Mon service s'adresse spécifiquement aux organisations et individus cherchant à exploiter la puissance de la technologie blockchain à travers le développement de contrats intelligents Solidity.\n\nAvec un accent fort sur Solidity, le langage de programmation leader pour écrire des contrats intelligents sur Ethereum et autres plateformes blockchain, je fournis des services de développement complets de la conceptualisation au déploiement. Mon expertise garantit que vos contrats intelligents soient non seulement efficacement conçus pour répondre à vos exigences uniques mais soient également robustes, sécurisés et optimisés pour l'efficacité gazière, critiques pour des applications blockchain réussies.\n\nCe service est idéal pour des projets visant à automatiser les transactions, créer des applications de finance décentralisée (DeFi), émettre des tokens, ou établir des organisations autonomes décentralisées (DAO) complexes. En tirant parti de ma compréhension profonde de la technologie blockchain et du développement de contrats intelligents, j'aide les clients à naviguer dans les complexités de l'espace blockchain, garantissant que leurs projets soient construits sur des fondations solides et sécurisées.\n\nChoisir mon service de développement de contrats intelligents Solidity signifie s'associer avec un expert dédié focalisé sur la livraison de solutions blockchain personnalisées de haute qualité. Travaillons ensemble pour transformer vos idées innovantes en réalité, tirant parti du plein potentiel de la technologie blockchain pour atteindre une sécurité, transparence et efficacité inégalées dans vos transactions numériques."
+                    },
+                    "dapp": {
+                        "title": "Développement d'applications décentralisées",
+                        "content": "À l'avant-garde de l'innovation blockchain, mon service de développement d'applications décentralisées est conçu pour des projets cherchant à exploiter le pouvoir transformateur de la technologie décentralisée. Utilisant Solidity pour la création de contrats intelligents et s'intégrant avec l'écosystème Ethereum via Ethers.js et Hardhat, je livre des solutions complètes. Mon expertise s'étend à l'emploi du framework Next.js, aux côtés d'autres technologies de pointe comme wagmi.sh, viem.sh, et RainbowKit, pour assurer une expérience utilisateur fluide et engageante.\n\nEn tant que développeur blockchain dédié, je me spécialise dans la construction d'applications décentralisées évolutives et sécurisées qui servent une large gamme d'applications, des plateformes DeFi aux marchés NFT. Mon approche combine la prouesse technique avec une compréhension aiguë du design centré sur l'utilisateur, garantissant que chaque application décentralisée soit non seulement robuste et efficace mais aussi intuitive et accessible pour les utilisateurs finaux.\n\nChoisir mon service de développement d'applications décentralisées garantit un partenariat avec un expert engagé à l'excellence et l'innovation. Du concept initial au déploiement final, je travaille étroitement avec les clients pour traduire leur vision en réalité, priorisant la qualité, la sécurité et la satisfaction utilisateur.\n\nEn tirant parti de Solidity, Ethers.js, Hardhat, Next.js, Viem.sh, Wagmi.sh, et RainbowKit, je suis équipé pour créer des applications décentralisées à l'avant-garde de la technologie blockchain. Collaborons pour développer des applications décentralisées qui repoussent les limites du possible, livrant une valeur significative à vos utilisateurs et distinguant votre projet dans l'écosystème blockchain dynamique."
+                    },
+                    "platform": {
+                        "title": "Ingénierie de Plateformes Décentralisées",
+                        "content": "Dans le secteur blockchain, mon service \"Ingénierie de Plateformes Décentralisées\" offre une infrastructure vitale et une boîte à outils pour les développeurs adoptant une approche DevSecOps. Visant à fournir la fondation nécessaire pour construire, déployer et maintenir des applications décentralisées (dApps) et plateformes sécurisées et évolutives, ce service répond aux besoins spécifiques du développement blockchain.\n\nIntégrant les meilleures pratiques d'infrastructure décentralisée avec les principes DevSecOps, mon service promeut un cycle de vie de développement qui met l'accent sur la sécurité, les tests automatisés et le déploiement continu. Cette approche améliore l'agilité et la robustesse tout au long du processus de développement.\n\nS'associer avec moi vous donne accès à une gamme de services, incluant la configuration d'infrastructure blockchain, le développement et les audits de contrats intelligents, le déploiement d'applications décentralisées et le support continu. Avec une expertise dans les technologies blockchain de premier plan, je garantis que votre projet soit construit sur une fondation sécurisée et évolutive.\n\nConçu pour tout stade de développement, mon service \"Ingénierie de Plateformes Décentralisées\" est idéal pour les startups et entreprises établies, cherchant à innover avec la technologie blockchain. Ensemble, nous pouvons créer une plateforme décentralisée qui soit efficace, sécurisée et prête pour les défis et opportunités futures."
+                    }
+                }
+            },
+            "web2": {
+                "title": "Ingénieur Fullstack Web2",
+                "services": {
+                    "fullstack": {
+                        "title": "Développeur Web Fullstack",
+                        "content": "Dans le monde du développement web en évolution rapide et constante, avoir une capacité full-stack fluide et cohésive est crucial pour livrer des solutions numériques complètes. Mon service \"Développeur Full-Stack\" est méticuleusement conçu pour combler le fossé entre l'élégance frontend et la robustesse backend, offrant une expérience de développement unifiée à travers la pile JavaScript ou TypeScript complète. Avec une expertise profonde dans les domaines frontend et backend, j'exploite la puissance de frameworks leaders comme React pour le frontend, avec Express.js et Nest.js pour le backend, pour créer des applications web dynamiques, évolutives et intuitives.\n\nEn tant que développeur full-stack, j'apporte une approche holistique au développement de projet, intégrant les interfaces réactives et conviviales permises par React avec la logique côté serveur efficace et sécurisée d'Express.js et Nest.js. Cette combinaison garantit non seulement la livraison d'expériences utilisateur visuellement attrayantes et engageantes mais aussi la robustesse et l'évolutivité des architectures serveur et serverless côté backend. Ma compétence s'étend aux conceptions architecturales, incluant l'Architecture Hexagonale et la Conception Pilotée par le Domaine (DDD), garantissant que votre projet soit construit sur une fondation solide qui supporte à la fois les besoins actuels et la croissance future.\n\nChoisir mon service \"Développeur Full-Stack\" signifie s'associer avec un développeur polyvalent qui comprend les subtilités du développement frontend et backend. Je m'engage à utiliser mon ensemble de compétences complet en JavaScript et TypeScript pour construire des solutions innovantes, maintenables et parfaitement alignées avec vos objectifs stratégiques.\n\nCollaborons pour créer une solution full-stack qui non seulement répond aux exigences techniques du paysage numérique d'aujourd'hui mais fournit également un avantage concurrentiel sur le marché. Avec mon expertise, votre projet sera un témoignage de ce qui est possible quand la créativité frontend rencontre l'efficacité backend, établissant de nouveaux standards pour ce que le développement full-stack peut accomplir."
+                    },
+                    "frontend": {
+                        "title": "Développeur Web Frontend",
+                        "content": "À l'ère numérique, un frontend convaincant est clé pour captiver les utilisateurs. Mon service \"Développeur Frontend React\" livre un développement d'interface utilisateur expert avec React, garantissant des applications web dynamiques, réactives et visuellement engageantes. Adapté à toutes les tailles d'entreprise, ce service exploite l'architecture basée sur les composants de React pour des solutions évolutives et maintenables, facilitant les mises à jour faciles.\n\nJe possède une compréhension approfondie de l'écosystème React, utilisant les hooks, la gestion d'état (Redux ou Context API), et les bibliothèques tierces pour améliorer les expériences utilisateur. L'optimisation des performances, le SEO et l'accessibilité sont également des priorités principales, alignant votre application web avec les plus hauts standards.\n\nChoisir mon service signifie opter pour un développeur dédié à l'innovation et aux designs centrés sur l'utilisateur. Je collabore étroitement avec les clients du concept au déploiement, personnalisant les projets selon les besoins et objectifs spécifiques.\n\nOptez pour mon service \"Développeur Frontend React\" pour élever votre présence numérique, garantissant une application web remarquable qui favorise l'engagement utilisateur et le succès du projet. Créons une solution basée sur React qui résonne vraiment avec votre audience."
+                    },
+                    "backend": {
+                        "title": "Développeur Web Backend",
+                        "content": "Dans le paysage en évolution rapide du développement web, l'épine dorsale de toute application réussie est un backend robuste et évolutif. Mon service \"Développeur Backend\" est savamment conçu pour offrir non seulement le développement, mais une solution complète qui s'aligne avec vos objectifs commerciaux. En tant qu'expert en Express.js et Nest.js, je livre la flexibilité et l'efficacité de ces frameworks, améliorant la fonctionnalité côté serveur de votre application. Mon expertise ne s'arrête pas là ; je suis aussi compétent dans les architectures serveur et serverless, garantissant une performance optimale indépendamment de l'environnement de déploiement.\n\nMon approche du développement backend est holistique, embrassant les aspects pratiques et théoriques qui font une fondation solide. Je me spécialise dans l'Architecture Hexagonale et la Conception Pilotée par le Domaine (DDD), méthodologies qui priorisent la maintenabilité et la centralité de la logique métier. Cette expertise me permet de construire des systèmes qui sont non seulement techniquement solides mais aussi alignés avec votre stratégie commerciale, garantissant que votre architecture backend puisse évoluer de manière fluide avec votre entreprise.\n\nS'engager avec mon service signifie choisir un développeur qui comprend les nuances de créer des systèmes backend puissants. Je combine ma connaissance profonde d'Express.js et Nest.js avec un ensemble de compétences polyvalent en technologies serveur et serverless, et une adresse en Architecture Hexagonale et DDD. Ce mélange de compétences garantit un backend qui n'est pas seulement une base de code, mais un actif stratégique.\n\nTravaillons ensemble pour construire un backend prêt pour l'avenir, tirant parti de mon expertise complète pour créer une solution sécurisée, évolutive et parfaitement adaptée à vos besoins. Avec mes conseils, votre projet non seulement respectera les standards web actuels mais établira de nouveaux benchmarks d'excellence dans le domaine numérique."
+                    },
+                    "mobile": {
+                        "title": "Développeur Mobile",
+                        "content": "Dans le paysage dynamique du développement d'applications mobiles, livrer des applications cross-platform de haute qualité est essentiel pour atteindre un public plus large. Mon service \"Développeur Mobile React Native\" fournit des solutions complètes pour créer des applications mobiles utilisant React Native, permettant aux entreprises de lancer des applications qui performent de manière fluide sur les plateformes iOS et Android.\n\nReact Native combine les meilleurs aspects du développement natif avec React, une bibliothèque JavaScript de premier plan pour construire des interfaces utilisateur. Cette approche permet le développement d'applications mobiles riches et engageantes avec une seule base de code, réduisant significativement le temps de développement et les coûts tout en garantissant une expérience utilisateur cohérente à travers les appareils.\n\nEn tant que développeur mobile expérimenté, j'apporte une richesse d'expérience à votre projet, garantissant que chaque aspect de votre application, de sa performance et réactivité à son apparence et sensation, soit optimisé pour l'engagement et la satisfaction utilisateur. Mon service couvre l'ensemble du cycle de vie de développement d'application, du concept et design à l'implémentation, tests et déploiement, incorporant les dernières fonctionnalités et capacités offertes par React Native.\n\nChoisir mon service \"Développeur Mobile React Native\" signifie s'associer avec un développeur qui comprend les subtilités du développement d'applications mobiles et s'engage à exploiter la puissance de React Native pour créer des applications époustouflantes et hautes performances. Travaillons ensemble pour transformer votre vision en réalité, livrant une application mobile qui non seulement répond mais dépasse vos attentes, garantissant que votre entreprise reste en avance dans le marché numérique compétitif."
+                    }
+                }
+            }
+        }
+    },
+    "common": {
+        "loading": "Chargement...",
+        "error": "Une erreur s'est produite",
+        "retry": "Réessayer"
+    },
+    "navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Bienvenue",
+        "subtitle": "Portfolio Professionnel",
+        "cta": "Commencer"
+    },
+    "about": {
+        "title": "À propos de moi",
+        "description": "En savoir plus sur mon expérience et mes compétences"
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "description": "Projets et travaux récents",
+        "viewProject": "Voir le projet"
+    },
+    "contact": {
+        "title": "Contact",
+        "name": "Nom",
+        "email": "Courriel",
+        "message": "Message",
+        "submit": "Envoyer le message",
+        "success": "Message envoyé avec succès!",
+        "error": "Échec de l'envoi du message",
+        "tooltips": {
+            "email": "Courriel",
+            "imessage": "iMessage", 
+            "whatsapp": "WhatsApp",
+            "calendly": "Planifier un rendez-vous"
+        }
+    },
+    "footer": {
+        "rights": "Tous droits réservés",
+        "followUs": "Suivez-nous"
+    },
+    "NotFound": {
+        "message": "Page non trouvée"
+    },
+    "header": {
+        "logoAlt": "Logo HelloMax"
+    },
+    "temp": {
+        "title": "Site fonctionnel ✅",
+        "description": "Cette page fonctionne parfaitement.",
+        "addI18n": "Maintenant nous allons pouvoir ajouter l'i18n correctement."
+    },
+    "languages": {
+        "english": "Anglais",
+        "french": "Français"
+    }
+}

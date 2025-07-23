@@ -1,6 +1,9 @@
 'use client';
+import { useTranslations } from '@/lib/useTranslations';
+import LanguageSwitcher from '../LanguageSwitcher';
 
 export default function Header() {
+    const { t } = useTranslations();
     const handleClick = () => {
         // Section
         let landing = document.getElementById('landing');
@@ -41,15 +44,16 @@ export default function Header() {
                 Hello<span className='border-b-4 border-lightblue text-lightblue'>Max</span>
             </div>
 
+            <div className='flex items-center gap-4'>
+                <LanguageSwitcher />
+                <img src='/images/logo.svg' alt={t('header.logoAlt')} className='h-[35px] w-[35px] invert xl:h-[45px] xl:w-[45px]' />
+            </div>
             {/* Commented out for now cause we don't want a menu yet
             <div
                 id='toggle'
                 className='bg-size-[30px] relative h-[30px] w-[30px] cursor-pointer bg-burger-bar bg-no-repeat invert'
                 onClick={handleClick}></div>
             */}
-            <div>
-                <img src='/images/logo.svg' className='h-[35px] w-[35px] invert xl:h-[45px] xl:w-[45px]' />
-            </div>
         </header>
     );
 }

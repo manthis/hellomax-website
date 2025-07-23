@@ -1,16 +1,20 @@
 'use client';
 
 interface ButtonProps {
-    label: string;
+    label?: string;
+    text?: string;
     link?: string | '#';
+    href?: string | '#';
+    target?: string;
 }
 
-export default function Button({ label, link }: ButtonProps) {
+export default function Button({ label, text, link, href, target }: ButtonProps) {
     return (
         <a
-            href={link}
+            href={href || link}
+            target={target}
             className='mr-[20px] inline-block cursor-pointer border-2 border-lightblue px-[20px] py-[10px] text-start font-medium uppercase tracking-wider text-white no-underline duration-500 last:mr-0 last:bg-lightblue last:text-dracula hover:bg-lightblue hover:text-dracula hover:shadow-lightblue portrait:mb-2'>
-            {label}
+            {text || label}
         </a>
     );
 }
